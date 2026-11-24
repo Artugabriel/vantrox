@@ -1,0 +1,10 @@
+# Runtime data contains account and order details.
+/data/*.json
+/data/*.tmp
+
+# Local configuration and operating-system files.
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
